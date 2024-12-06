@@ -1,7 +1,7 @@
 {
     "description": "Personal Leaning Project",
     "domain": "is-cool.dev",
-    "subdomain": "pine",
+    "subdomain": "_acme-challenge.pine",
 
     "owner": {
         "repo": "https://github.com/schen6318/8601-register/",
@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "TXT": ["example_verification=1234567890"],
+        "TXT": ["ONIAo4Jq8FaKlHfH4XEKTyNxfX4w44j9TDFZHnaY-cI"],
         "CAA": [
             { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
             { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
