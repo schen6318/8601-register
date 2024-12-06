@@ -1,0 +1,20 @@
+{
+    "description": "Personal Leaning Project",
+    "domain": "is-cool.dev",
+    "subdomain": "pine",
+
+    "owner": {
+        "repo": "https://github.com/schen6318/8601-register/",
+        "email": "info@pine.is-cool.dev"
+    },
+
+    "record": {
+        "TXT": ["example_verification=1234567890"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ],
+    },
+
+    "proxied": false
+}
